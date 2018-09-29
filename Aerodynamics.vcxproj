@@ -95,13 +95,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\gl;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Include;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\glm;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Lib\gl;Lib\LaxePhysicsEngine\Include;Lib\glm;Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4273;4316;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Lib;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>Lib\LaxePhysicsEngine\Lib;Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>LaxePhysicsEngine.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
@@ -117,13 +117,13 @@ xcopy /d /y /S Data\* Build\Data\</Command>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\gl;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Include;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\glm;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Lib\gl;Lib\LaxePhysicsEngine\Include;Lib\glm;Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4273;4316;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Lib;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>Lib\LaxePhysicsEngine\Lib;Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>LaxePhysicsEngine.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
@@ -141,7 +141,7 @@ xcopy /d /y /S Data\* Build\Data\</Command>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\gl;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Include;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\glm;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Lib\gl;Lib\LaxePhysicsEngine\Include;Lib\glm;Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4273;4316;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -149,7 +149,7 @@ xcopy /d /y /S Data\* Build\Data\</Command>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Lib;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>Lib\LaxePhysicsEngine\Lib;Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>LaxePhysicsEngine.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
@@ -167,7 +167,7 @@ xcopy /d /y /S Data\* Build\Data\</Command>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\gl;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Include;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\glm;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Lib\gl;Lib\LaxePhysicsEngine\Include;Lib\glm;Lib\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4273;4316;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -175,7 +175,7 @@ xcopy /d /y /S Data\* Build\Data\</Command>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\LaxePhysicsEngine\Lib;C:\Users\anton\Desktop\Projects\Aerodynamics\New\Aerodynamics\Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>Lib\LaxePhysicsEngine\Lib;Lib\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>LaxePhysicsEngine.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <PostBuildEvent>
