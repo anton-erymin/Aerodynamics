@@ -1,6 +1,6 @@
 # Aerodynamics
 
-Simulator of flight with LODed landscape using OpenGL. This is my first attempt to write a tiny graphics engine. Written around 2012
+Simulator of flight with LODed landscape using OpenGL and my simple physics engine. This is my first attempt to write a tiny graphics engine. Written around 2012
 
 
 <img width="2560" height="1440" alt="026" src="https://github.com/user-attachments/assets/b947521a-3041-412e-8275-97d52050843b" />
